@@ -20,7 +20,7 @@ This repository contains a simple **Currency Converter Webpage** that allows use
 ## How It Works
 
 > [!NOTE]
-> **Dynamic Exchange Rates:** Currently, the exchange rates are manually included in the code. For real-time data, you can integrate an API like Fixer.io or Open Exchange Rates.
+> **Dynamic Exchange Rates:** Currently, the exchange rates are manually included in the code. For real-time data, you can integrate an API like <ins>Fixer.io</ins> or <ins>Open Exchange Rates</ins>.
 
 The currency converter performs the following steps:
 
