@@ -54,8 +54,9 @@ PHP server environment (e.g., XAMPP, WAMP, or LAMP)
 Basic knowledge of how to run PHP applications locally
 Setup Instructions
 Clone the repository:
-
-git clone https://github.com/yourusername/currency-converter-webpage.git
+```bash
+git clone https://github.com/yourusername/Currency-converter.git
+```
 Move the files to your server’s root directory. If you're using XAMPP, this is typically the htdocs folder.
 
 Start the PHP server. For example, if you're using XAMPP, launch Apache and MySQL from the XAMPP control panel.
