@@ -50,15 +50,15 @@ How to Set Up the Project Locally
 To get this project up and running on your local machine, follow these steps:
 
 Prerequisites
-PHP server environment (e.g., XAMPP, WAMP, or LAMP)
-Basic knowledge of how to run PHP applications locally
-Setup Instructions
-Clone the repository:
+- PHP server environment (e.g., XAMPP, WAMP, or LAMP)
+- Basic knowledge of how to run PHP applications locally
+### Setup Instructions
+1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/Currency-converter.git
 ```
-Move the files to your server’s root directory. If you're using XAMPP, this is typically the htdocs folder.
+2. Move the files to your server’s root directory. If you're using XAMPP, this is typically the htdocs folder.
 
-Start the PHP server. For example, if you're using XAMPP, launch Apache and MySQL from the XAMPP control panel.
+3. Start the PHP server. For example, if you're using XAMPP, launch Apache and MySQL from the XAMPP control panel.
 
-Open your browser and go to http://localhost/currency-converter-webpage to see the page in action.
+4. Open your browser and go to http://localhost/Currency-converter to see the page in action.
