@@ -19,6 +19,9 @@ This repository contains a simple **Currency Converter Webpage** that allows use
 
 ## How It Works
 
+> [!NOTE]
+> **Dynamic Exchange Rates:** Currently, the exchange rates are manually included in the code. For real-time data, you can integrate an API like Fixer.io or Open Exchange Rates.
+
 The currency converter performs the following steps:
 
 1. The user selects the source and target currencies from dropdown menus.
@@ -44,6 +47,7 @@ $conversion_rate = $php[$from_currency] * $cad[$to_currency];
 $converted_amount = $amount * $conversion_rate;
 ```
 
+
 ## How to Set Up the Project Locally
 
 How to Set Up the Project Locally
@@ -62,7 +66,8 @@ git clone https://github.com/yourusername/Currency-converter.git
 3. **Start the PHP server.** For example, if you're using XAMPP, launch Apache and MySQL from the XAMPP control panel.
 
 4. **Open your browser** and go to http://localhost/Currency-converter to see the page in action.
-
+> [!TIP]
+> **Enable PHP Extensions:** Some features may require enabling certain PHP extensions, such as curl or file_get_contents(). Make sure they're enabled in your PHP configuration (php.ini).
 
 ## Contributing
 If you want to contribute to this project, feel free to fork the repository and submit a pull request. Below are some ways you can contribute:
